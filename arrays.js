@@ -33,15 +33,17 @@ switch (eleccion) {
 
         } else {
             alert("ingrese un numero correcto")
+            
+            location.reload()
             break
         }
 
-        // location. reload()
+        
 
 
         case 2:
             let bebida = prompt("Ingrese la marca de la bebida")
-            let litros = parseInt(prompt("Elija una opción: \n 1°--  0.5 litros \n 2°--  1 litro \n 3°--  2.5 litros"))
+            let litros = parseInt(prompt("Elija una opción: \n 1°--  0.5 litros = $100 \n 2°--  1 litro = 240 \n 3°--  2.5 litros = 300"))
             let pago = prompt("Con cuanto va a pagar")
 
             switch (litros) {
